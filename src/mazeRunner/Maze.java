@@ -31,7 +31,7 @@ public class Maze extends BufferedImage implements IPathable<MazeNode>{
 
 	private void generateGraph() {
 		long startTime = System.currentTimeMillis();
-		Console.printLn(System.out, "Generating graph.");
+		Console.printLn(System.out, "Generating graph:");
 		ArrayList<ArrayList<MazeNode>> nodes = new ArrayList<ArrayList<MazeNode>>();
 		// Generate nodes
 		for (int yLoc = 0; yLoc < getHeight(); yLoc++) {
